@@ -6,15 +6,10 @@ html {
   font-family: "Farro", sans-serif;
 }
 
-.absolute-top {
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.absolute-bottom {
-  position: absolute;
-  bottom: -14px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.background-image {
+  background: url(../assets/market/1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
 }

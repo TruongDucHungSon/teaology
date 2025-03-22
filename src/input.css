@@ -13,3 +13,26 @@ html {
   background-repeat: no-repeat;
   border-radius: 30px;
 }
+
+.scroll-y {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-y::-webkit-scrollbar {
+  width: 8px; /* Độ rộng của thanh cuộn */
+}
+
+.scroll-y::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Màu nền của thanh cuộn */
+  border-radius: 10px;
+}
+
+.scroll-y::-webkit-scrollbar-thumb {
+  background: #888; /* Màu của thanh cuộn */
+  border-radius: 10px;
+}
+
+.scroll-y::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Màu khi hover */
+}

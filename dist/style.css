@@ -562,6 +562,15 @@
   .w-\[64\%\] {
     width: 64%;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[90\%\] {
+    width: 90%;
+  }
+  .w-\[95\%\] {
+    width: 95%;
+  }
   .w-\[100\%\] {
     width: 100%;
   }
@@ -588,6 +597,9 @@
   }
   .w-\[890px\] {
     width: 890px;
+  }
+  .w-\[950\%\] {
+    width: 950%;
   }
   .w-\[1040px\] {
     width: 1040px;
@@ -1600,6 +1612,9 @@
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
   .text-\[80px\] {
     font-size: 80px;
   }
@@ -1729,6 +1744,9 @@
   }
   .text-\[\#1c3c36\] {
     color: #1c3c36;
+  }
+  .text-\[60\] {
+    color: 60;
   }
   .capitalize {
     text-transform: capitalize;
@@ -2168,6 +2186,11 @@
   .transform-view {
     transform-box: view-box;
   }
+  .placeholder\:text-\[16px\] {
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
   .placeholder\:text-\[24px\] {
     &::placeholder {
       font-size: 24px;
@@ -2176,6 +2199,16 @@
   .placeholder\:text-\[\#CAAED5\] {
     &::placeholder {
       color: #CAAED5;
+    }
+  }
+  .md\:w-\[60\%\] {
+    @media (width >= 48rem) {
+      width: 60%;
+    }
+  }
+  .md\:w-\[70\%\] {
+    @media (width >= 48rem) {
+      width: 70%;
     }
   }
   .md\:text-\[62px\] {
@@ -2418,6 +2451,11 @@
       font-size: 72px;
     }
   }
+  .lg\:text-\[80px\] {
+    @media (width >= 64rem) {
+      font-size: 80px;
+    }
+  }
   .lg\:text-\[86px\] {
     @media (width >= 64rem) {
       font-size: 86px;
@@ -2426,6 +2464,13 @@
   .lg\:text-\[180px\] {
     @media (width >= 64rem) {
       font-size: 180px;
+    }
+  }
+  .lg\:placeholder\:text-\[24px\] {
+    @media (width >= 64rem) {
+      &::placeholder {
+        font-size: 24px;
+      }
     }
   }
   .xl\:h-\[181px\] {

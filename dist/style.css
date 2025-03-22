@@ -2649,6 +2649,11 @@
       gap: calc(var(--spacing) * 0);
     }
   }
+  .xl\:gap-8 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 8);
+    }
+  }
   .xl\:gap-\[60px\] {
     @media (width >= 80rem) {
       gap: 60px;

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/style.css" />
     <title>Document</title>
@@ -20,10 +21,12 @@
           />
         </div>
         <div class="flex flex-col lg:flex-row h-auto gap-[30px] lg:gap-[70px]">
-          <div class="w-full md:w-[330px]">
-            <ul class="space-y-4">
+          <div class="w-full lg:w-[330px]">
+            <ul
+              class="flex-row w-full flex-wrap flex items-center lg:items-start justify-between lg:flex-col"
+            >
               <li
-                class="hover:bg-[#DAC1E4] px-6 py-3 cursor-pointer text-[#1C3C36] font-semibold rounded-[50px]"
+                class="hover:bg-[#DAC1E4] flex items-center justify-between px-6 py-3 cursor-pointer text-[#1C3C36] font-semibold rounded-[50px]"
               >
                 Barista & Cashier
               </li>
@@ -43,7 +46,7 @@
                 Content Creator
               </li>
               <li
-                class="text-gray-600 hover:bg-[#DAC1E4] hover:text-[#1C3C36] font-semibold transition-all duration-500 cursor-pointer px-6 py-3 rounded-[50px]"
+                class="text-gray-600 flex items-center justify-between hover:bg-[#DAC1E4] hover:text-[#1C3C36] font-semibold transition-all duration-500 cursor-pointer px-6 py-3 rounded-[50px]"
               >
                 Business Analyst
               </li>
@@ -53,10 +56,10 @@
           <!-- Job Details -->
           <div class="w-full xl:w-3/4 p-12 lg:p-20 bg-[#DAC1E4] rounded-[70px]">
             <div
-              class="flex flex-col lg:flex-row gap-2 lg:justify-between lg:items-center"
+              class="flex flex-col w-full xl:flex-row gap-2 lg:justify-between lg:items-center"
             >
               <h2
-                class="text-[32px] lg:text-[64px] leading-[100%] text-[#1C3C36] font-bold"
+                class="text-[32px] w-fit lg:text-[64px] leading-[100%] text-[#1C3C36] font-bold"
               >
                 Barista & Cashier
               </h2>
@@ -66,7 +69,9 @@
                 Apply
               </button>
             </div>
-            <div class="flex justify-between mt-5 lg:mt-10">
+            <div
+              class="flex flex-col gap-4 lg:flex-row lg:justify-between mt-5 lg:mt-10"
+            >
               <div class="flex flex-col gap-3 text-[#1C3C36]">
                 <h5
                   class="text-[20px] lg:text-[28px] text-[#1C3C36] font-semibold leading-[100%]"

@@ -25,6 +25,10 @@ html {
   overflow: hidden;
   overflow-y: scroll;
 }
+.scroll-x {
+  overflow: hidden;
+  overflow-x: scroll;
+}
 
 .scroll-y::-webkit-scrollbar {
   width: 8px; /* Độ rộng của thanh cuộn */
